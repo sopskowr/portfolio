@@ -14,7 +14,6 @@ body {
 }
 
 /*Background Effect*/
-
 :root {
   --color-bg1: rgb(43, 36, 39);
   --color-bg2: rgb(33, 30, 41);
@@ -993,9 +992,10 @@ filter: drop-shadow(0 0 3px #D9D6DF);
     transform: scale(1.06);
 }
 
+/* Responsiveness */
+
 @media (max-width: 768px) {
 
-  /* GENERAL */
   body {
     overflow: auto;
   }
@@ -1028,7 +1028,6 @@ filter: drop-shadow(0 0 3px #D9D6DF);
     pointer-events: auto;
   }
 
-  /* TITLE BAR */
   .title-bar {
     height: 52px;
     padding: 0 20px;
@@ -1047,7 +1046,6 @@ filter: drop-shadow(0 0 3px #D9D6DF);
     height: 32px;
   }
 
-  /* WINDOW CONTENT */
   .window-content {
     flex: 1;
     overflow-y: auto;
@@ -1056,7 +1054,6 @@ filter: drop-shadow(0 0 3px #D9D6DF);
     line-height: 1.55;
   }
 
-  /* WELCOME CONTAINER */
   #container {
     width: 90%;
     padding: 40px 30px;
@@ -1088,7 +1085,7 @@ filter: drop-shadow(0 0 3px #D9D6DF);
     font-size: 13px;
   }
 
-  /* ABOUT WINDOW */
+  /* About Window (mobile) */
   .about-content {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
@@ -1109,7 +1106,7 @@ filter: drop-shadow(0 0 3px #D9D6DF);
     margin-top: 30px;
   }
 
-  /* SKILLS WINDOW */
+  /* Skills Window (mobile) */
   .skills-grid {
     grid-template-columns: 1fr;
   }
@@ -1118,7 +1115,7 @@ filter: drop-shadow(0 0 3px #D9D6DF);
     padding: 18px;
   }
 
-  /* PROJECTS WINDOW */
+  /* Projects Window (mobile) */
   .projects-list {
     gap: 16px;
   }
@@ -1129,20 +1126,20 @@ filter: drop-shadow(0 0 3px #D9D6DF);
     padding: 16px;
   }
 
-  /* CONTACT */
+  /* contact Window (mobile) */
   .email-button {
     padding: 22px 26px;
     font-size: 16px;
   }
 
-  /* PROJECT PREVIEWS */
+   /*Projects windows */
   .project-preview,
   #ChemCheck.project-preview {
     height: 220px !important;
     margin-top: 20px;
   }
 
-  /* 3D MODEL WINDOWS */
+  /* 3D models windows */
   .model-viewer,
   #container3D canvas,
   #container3D_2 canvas,
@@ -1150,7 +1147,6 @@ filter: drop-shadow(0 0 3px #D9D6DF);
     height: 240px !important;
   }
 
-  /* SLIDESHOW */
   .prev,
   .next {
     padding: 12px;
@@ -1162,7 +1158,6 @@ filter: drop-shadow(0 0 3px #D9D6DF);
     width: 12px;
   }
 
-  /* IMAGE GRID */
   .box-area {
     grid-template-columns: 1fr;
   }
