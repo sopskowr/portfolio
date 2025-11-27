@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sophie's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/catherova" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Background -->
+
+  <div class="gradient-bg">
+    <svg xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
+          <feBlend in="SourceGraphic" in2="goo" />
+        </filter>
+      </defs>
+    </svg>
+    <div class="gradients-container">
+      <div class="g1"></div>
+      <div class="g2"></div>
+      <div class="g3"></div>
+      <div class="g4"></div>
+      <div class="interactive"></div>
+    </div>
+  </div>
+
+    <!-- About Window -->
+    <div class="window" id="about">
+  <div class="title-bar"  id="about">
+    <div class="title-scroll">
+        </div>
+      <button class="close">✖</button>
+  </div>
+
+  <div class="about-content">
+
+      <div class="profile-pic"></div>
+
+      <div class="about-header">
+          <h1>SOPHIE SKOWRONNEK</h1>
+          <div class="headline-divider"></div>
+          <h3>web development / UX / UI</h3>
+          <p class="intro">
+            Hi, I’m Sophie. I’m a Digital Media Student based in Bremen, Germany.
+            My fields of interest are web development and UI/UX design.
+          </p>
+      </div>
+      
+      <div class="section">
+          <h2>Language Proficiency</h2>
+          <div class="section-line"></div>
+
+          <p><strong>German:</strong> Native Language</p>
+          <p><strong>English:</strong> C1</p>
+      </div>
+
+      <div class="section">
+          <h2>Other Interests</h2>
+          <div class="section-line"></div>
+
+          <ul>
+              <li>Digital Art</li>
+              <li>Character Design</li>
+          </ul>
+
+          <!--Drawings-->
+
+        	<div id="card-area">
+		<div class="wrapper">
+			<div class="box-area">
+				<div class="box">
+					<img alt="" src="images/drawing 1.jpg">
+					<div class="overlay">
+						<h3>Glow</h3>
+						<p>An original character I drew for a collaborative art piece with my friends.</p>
+					</div>
+				</div>
+        	<div class="box">
+					<img alt="" src="images/drawing 2.jpg">
+					<div class="overlay">
+						<h3>Sniper</h3>
+						<p>An original character of another artist I drew as part of artfight, an online art event.</p>
+					</div>
+				</div>
+        	<div class="box">
+					<img alt="" src="images/drawing 3.jpg">
+					<div class="overlay">
+						<h3>Rebecca</h3>
+						<p>A fanart of the video game character Rebecca Chambers from Resident Evil.</p>
+					</div>
+				</div>
+        	<div class="box">
+					<img alt="" src="images/drawing 4.jpg">
+					<div class="overlay">
+						<h3>Casual</h3>
+						<p>Two original Characters I drew for fun.</p>
+					</div>
+				</div>
+        </div>
+        </div>
+          </div>
+           </div>
+
+      </div>
+    </div>
+
+    <!--Skills Window-->
+
+    <div class="window" id="skills">
+      <div class="title-bar" id="skills">
+        <div class="title-scroll">
+        </div>
+        
+        <button class="close">✖</button>
+      </div>
+      <div class="window-content skills-content">
+
+    <h1>Skills</h1>
+    <hr class="divider">
+
+    
+<div class="skills-grid">
+    <div class="card1">
+
+       <div class="skill-card">
+            <h2>Development</h2>
+            <ul>
+                <li>C++</li>
+                <li>C#</li>
+                <li>Java</li>
+                <li>Javascript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>PHP</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card2">
+      <div class="skill-card">
+            <h2>Prototyping</h2>
+            <ul>
+                <li>Figma</li>
+            </ul>
+        </div>
+    </div>
+    <div class="card3">
+      <div class="skill-card">
+            <h2>3D Modelling</h2>
+            <ul>
+                <li>Blender</li>
+                <li>Maya</li>
+            </ul>
+        </div>
+    </div>
+    <div class="card4">
+      <div class="skill-card">
+            <h2>Game Engines</h2>
+            <ul>
+                <li>Unity</li>
+                <li>Unreal Engine</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card5">
+      <div class="skill-card">
+            <h2>Adobe</h2>
+            <ul>
+                <li>Photoshop</li>
+                <li>After Effects</li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+    </div>
+</div>
+
+<!--Projects Window-->
+
+  <div class="window" id="projects">
+      <div class="title-bar" id="projects">
+        <div class="title-scroll">
+        </div>
+        <button class="close">✖</button>
+      </div>
+      <div class="window-content projects-window">
+    <h1 class="projects-title">Projects</h1>
+    <hr class="divider" />
+
+    <div class="projects-list">
+
+        <div class="project-row" data-window="Surgest">
+            <div class="project-left">
+                <img src="images/surgest-logo.png" class="project-icon" alt="">
+                <span>Surgest</span>
+            </div>
+            <div class="project-right">UX/UI</div>
+        </div>
+
+        <div class="project-row" data-window="AfterLife">
+            <div class="project-left">
+                <img src="images/desktop icon.png" class="project-icon" alt="">
+                <span>After Life</span>
+            </div>
+            <div class="project-right">Unity</div>
+        </div>
+
+        <div class="project-row" data-window="ChemCheck">
+            <div class="project-left">
+                <img src="images/figma.svg" class="project-icon" alt="">
+                <span>ChemCheck App</span>
+            </div>
+            <div class="project-right">Figma</div>
+        </div>
+
+        <div class="project-row" data-window="model-window">
+            <div class="project-left">
+                <img src="images/3d.svg" class="project-icon" alt="">
+                <span>3D Modelling</span>
+            </div>
+            <div class="project-right">Blender</div>
+        </div>
+
+    </div>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+
+    <!--Contact Window-->
+
+   <div class="window" id="contact">
+      <div class="title-bar" id="contact">
+        <div class="title-scroll">
+        </div>
+        <button class="close">×</button>
+      </div>
+      <div class="window-content contact-window">
+        <h1>Contact</h1>
+        <hr class="divider">
+        <p>The easiest way to contact me is via email!</p>
+
+        <p>If you’re interested in working with me or have further questions,</p>  
+
+      <p>email me at: <a href="mailto:sophie.skowronnek@gmail.com" id="blueHighlight">sophie.skowronnek@gmail.com</a> <br>
+        Or press the button below!
+        </p>
+
+        <a href="mailto:sophie.skowronnek@gmail.com" class="email-button">Send me an email!</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Project Windows-->
+
+  <!--Surgest Windows-->
+
+  <div class="window" id="Surgest">
+      <div class="title-bar">
+        <div class="title-scroll">
+        </div>
+        <button class="close">✖</button>
+      </div>
+      <div class="window-content">
+        <h1 class="project-detail-title">SURGEST</h1>
+        <hr class="divider">
+        <div class="project-detail-content">
+                <div class="project-body">
+            <p>
+                Surgest was a student research project I participated in.  
+                The goal was to develop a functional prototype for a gesture-controlled  
+                display that is supposed to aid surgeons in the OR.
+            </p>
+            <p>
+                I contributed by developing gestures, conducting research,  
+                shooting an image movie and leading small teams.
+            </p>
+        </div>
+
+        <!-- Overlay Preview -->
+         <div class="box project-preview" id="surgestPreview">
+					<img alt="" src="images/surgest-preview.png">
+					<div class="overlay">
+						<h3>Surgest Website</h3>
+						<p>A website we made to showcase our project.<br> <b>Click here for more info!</b></p>
+					</div>
+				</div>
+        </div> 
+    </div>
+</div>
+
+        <!-- Overlay -->
+        <div id="embedOverlay" class="embed-overlay">
+    <div class="embed-overlay-inner">
+        <button id="closeEmbedOverlay" class="embed-close-btn">✖</button>
+        <iframe id="embedFrame" src="" frameborder="0"></iframe>
+    </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- After Life Window -->
+   <div class="window" id="AfterLife">
+      <div class="title-bar">
+        <div class="title-scroll">
+        </div>
+        <button class="close">✖</button>
+      </div>
+      <div class="window-content">
+        <h1 class="project-detail-title">After Life</h1>
+        <hr class="divider">
+        <div class="project-detail-content">
+                <div class="project-body">
+            <p>
+                After Life is a Jump and Run game I developed in Unity for a university class.
+            </p>
+            <p>
+                I made all of the sprites, animations and gameplay mechanics myself!
+            </p>
+        </div>
+
+        <!-- Overlay Preview -->
+         <div class="box project-preview" id="afterlifePreview">
+					<img alt="" src="images/AfterLifePreview.png">
+					<div class="overlay">
+						<h3>After Life</h3>
+						<p>A game I made in Unity for class.<br> <b>A demo will follow soon!</b></p>
+					</div>
+				</div>
+        </div> 
+    </div>
+</div>
+      <!-- Overlay -->
+
+      <!-- Yet to come... -->
+
+
+    <!-- ChemCheck Window -->
+  <div class="window" id="ChemCheck">
+      <div class="title-bar">
+        <div class="title-scroll">
+        </div>
+        <button class="close">✖</button>
+      </div>
+      <div class="window-content">
+        <h1 class="project-detail-title">ChemCheck</h1>
+        <hr class="divider">
+        <div class="project-detail-content">
+                <div class="project-body">
+            <p>
+                ChemCheck was a health-app-concept we developed for a university class. <br> 
+                It focuses on informing users about the ingredients of groceries.
+            </p>
+            <p>
+               I developed this figma-prototype to showcase our idea.
+            </p>
+        </div>
+         <div class="project-preview" id="ChemCheck">
+					 <iframe src="https://embed.figma.com/proto/UarOIfCNmiijWrKYyO1u8y/ChemCheck?node-id=1-3&p=f&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3&embed-host=share" allowfullscreen></iframe>
+        </div> 
+        </div>
+    </div>
+  </div>
+</div>
+
+  <div class="window" id="model-window">
+    <div class="title-bar">
+        <span class="title-scroll"></span>
+        <button class="close">✖</button>
+    </div>
+
+    <!-- 3D Modeling Window -->
+    <div class="window-content modelling-content">
+
+        <h1>3D Modeling</h1>
+        <hr class="divider">
+
+         <!-- Slideshow -->
+    <div class="slideshow-container">
+
+  <!-- Slide 1 -->
+  <div class="mySlides fade">
+    <div class="model-viewer">
+     <div id="container3D"></div>
+     </div>
+    <div class="text">A 3d model of a shelf I made in Blender.</div>
+  </div>
+
+  <!-- Slide 2 -->
+  <div class="mySlides fade">
+    <div class="model-viewer">
+     <div id="container3D_2"></div>
+     </div>
+    <div class="text">A 3d model of a desk I made in Blender.</div>
+  </div>
+
+  <!-- Slide 3 -->
+  <div class="mySlides fade">
+    <div class="model-viewer">
+    <div id="container3D_3"></div>
+    </div>
+    <div class="text">A 3d model of a chair I made in Blender.</div>
+  </div>
+
+  
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div> 
+
+    </div>
+</div>
+</div>
+
+  <!-- Icon Container -->
+<div id="container-launcher" class="launcher-icon">
+  <img id="logo" src="images/logo.svg">
+</div>
+
+  <div id="container" class="visible">
+    <h1>Hi, I'm Sophie!</h1>
+    <hr class="divider">
+    <h2>Welcome to my Portfolio.</h2>
+
+  <div id="icon-row">
+    <div class="icon" data-window="about">
+        <img src="images/about.svg" class="icon" alt="">
+       <span>About</span>
+    </div>
+
+    <div class="icon" data-window="skills">
+      <img src="images/skills.svg" class="icon" alt=""> 
+      <span>Skills</span>
+    </div>
+    <div class="icon" data-window="projects">
+      <img src="images/projects.svg" class="icon" alt="">
+      <span>Projects</span>
+    </div>
+
+    <div class="icon" data-window="contact">
+      <img src="images/contact.svg" class="icon" alt="">
+      <span>Contact</span>
+    </div>
+  </div>
+
+  </div>
+  <script src="main.js"></script>
+  <script type="module" src="3d.js"></script>
+</body>
+</html>
